@@ -1,0 +1,272 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  
+  .container {
+	width: 1440px;
+  }
+  
+  .wrapper {
+  
+	width: 1900px;
+  }
+  .wrapper__logo {
+	width: 70px;
+	height: 60px;
+	float: left;
+	padding: 6px 0 5px 40px;
+	margin-top: -12px;
+  }
+  .wrapper__navbar {
+	width: 600px;
+	margin: 21px 0 20px 0;
+	align-content: center;
+	height: 41px;
+	background-color: #FFF;
+	margin-left: 647px;
+	font-size: 23px;
+  }
+  .wrapper__navbar ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	white-space: nowrap;
+  }
+  .wrapper__link {
+	width: 100%;
+	color: #000;
+	font-family: Arial;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	border-right: 1px solid black;
+	list-style-type: none;
+	padding-left: 50px;
+	padding-left: 20px;
+  }
+  .wrapper__link a {
+	padding: 0px 40px 0px 10px;
+	text-decoration: none;
+  }
+  .wrapper__link a:hover {
+	text-decoration: underline;
+  }
+  .wrapper__link:last-child, .wrapper__link:nth-child(4) {
+	border: none;
+  }
+
+
+  /* promo */
+
+
+
+  .promo {
+	width: 1920px;
+	height: 611px;
+	background: url('../contact/bg1.png')center center/cover no-repeat;
+  }
+  .promo .fz75 {
+	color: #FFF;
+	font-family: Arial;
+	font-size: 104px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+	padding:  246px 465px 245px 466px;
+	white-space: nowrap;
+	
+  }
+
+  /* contact */
+
+
+  .contact {
+	height: 1138px;
+	padding-top: 206px ;
+	padding-left: 222px;
+
+	flex-shrink: 0;
+	background: url('contact/bg2.png')center center/cover no-repeat;
+  }
+  .contact .item {
+	display: flex;
+	margin-bottom: 89px;
+	flex-direction: row;
+	align-items: center;
+	width: 684px;
+	height: 155px;
+	flex-shrink: 0;
+	border-radius: 65px;
+	background: #FFF;
+	
+
+  }
+  .contact .item .descr h4{
+	color: #28384E;
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.5px;
+padding-left:20px;
+padding-bottom: 7px;
+
+  }
+  .contact .item .descr span{
+  color: #28384E;
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.5px;
+padding-left:20px ;
+}
+.contact .item .svg {
+	margin-left: 28px;
+	border-radius: 38px;
+border: 3px solid #28384E;
+padding: 9px 15px 5px 14px  ;
+
+}
+.contact .item .svg:nth-child(1){
+	padding: 15px 14px 1.25px 15px ;
+}
+
+.contact .form {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	padding-top: 156px;
+	width: 762px;
+	height: 642px;
+	flex-shrink: 0;
+	border-radius: 38px;
+	background: #FFF;
+}
+.contact .form input {
+	width: 306px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 38px;
+border: 2px solid #28384E;
+}
+
+
+.contact .form textarea{
+	
+width: 657px;
+height: 127px;
+
+border-radius: 38px;
+border: 2px solid #28384E;
+border-radius: 38px;
+background: #FFF;
+color: #B0B8C4;
+
+}
+
+.contact .form input{
+	text-align: left;
+	padding: 15px 0 16px 21px;
+	margin-bottom: 22px;
+color: #B0B8C4;
+font-family: Arial;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.5px;
+}
+
+.wrapper_form .form .h3 {
+padding-bottom: 26px;
+padding-left: 52px;
+align-self: start;
+color: #28384E;
+font-family: Arial;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.04px;
+}
+.wrapper_form .form .btn{
+	margin: 24px 69px 19px 69px;
+	white-space: nowrap;
+	width: 351px;
+height: 83px;
+
+flex-shrink: 0;
+color: #27374D;
+font-family: Arial;
+font-size: 27px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.62px;
+border-radius: 38px;
+border: 3px solid #28384E;
+background: #FFF;
+border-radius: 38px;
+}
+
+.contact .container {
+display: flex;
+}
+.contact .container .wrapper_form{
+	margin-left: 40px;
+}
+
+
+/* foooter */
+
+
+
+.footer {
+	width: 1920px;
+	height: 219px;
+	background: #27374D;
+  }
+  .footer .logo_footer {
+	width: 190px;
+	height: 161px;
+	flex-shrink: 0;
+	padding: 28px 0 30px 140px;
+  }
+  .footer .footer_link {
+  
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+	
+	margin: -128px 107px  83px 580px;
+	vertical-align: center;
+	list-style-type: none;
+  
+   
+  }
+  .footer .footer_link a {
+	color: #FFF;
+   white-space: nowrap;
+   text-decoration: none;
+	width: 100%;
+	font-family: Arial;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.5px;
+	padding-left: 56px;
+  }
+  
+   .footer_link div {
+  padding-left: 260px;
+  }
+  .footer .footer_link a:hover {
+	color: rgb(186, 186, 245);
+  }

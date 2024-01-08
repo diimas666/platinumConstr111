@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  
+  .container {
+	width: 1440px;
+  }
+  
+.wrapper {
+	width: 1920px;
+	height: 71px;
+	flex-shrink: 0;
+}
+  .wrapper__logo {
+	width: 70px;
+	height: 60px;
+	float: left;
+	padding: 6px 0 5px 40px;
+	margin-top: -12px;
+  }
+  .wrapper__navbar {
+	width: 600px;
+	margin: 21px 0 20px 0;
+
+	align-content: center;
+	height: 41px;
+	background-color: #FFF;
+	margin-left: 647px;
+	font-size: 23px;
+  }
+  .wrapper__navbar ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	white-space: nowrap;
+  }
+  .wrapper__link {
+	width: 100%;
+	color: #000;
+	font-family: Arial;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+	border-right: 1px solid black;
+	list-style-type: none;
+	padding-left: 50px;
+	padding-left: 20px;
+  }
+  .wrapper__link a {
+	padding: 0px 40px 0px 10px;
+	text-decoration: none;
+  }
+  .wrapper__link a:hover {
+	text-decoration: underline;
+  }
+  .wrapper__link:last-child, .wrapper__link:nth-child(4) {
+	border: none;
+  }
+  .wrapper .title_link {
+	position: relative;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: 800;
+	padding: 0 223px 0 200px;
+  }
+  
+  /* SERVICES */
+
+
+  .services_wrapper {
+	width: 1920px;
+	height: 614px;
+	background: url('../services/bg/erikmclean.png') center center/cover no-repeat;
+
+}
+.title_text {
+	color: #FFF;
+	padding: 247px 638px 247px 639px;
+	font-family: Arial;
+	font-size: 104px;
+	font-style: normal;
+	white-space: nowrap;
+	font-weight: 700;
+	line-height: normal;
+}
+   /* skills */
+
+
+
+.skills {
+	box-sizing: border-box;
+	width: 1477px;
+	height: 513px;
+	flex-shrink: 0;
+		
+	margin: 65px 221px 0 222px;
+}				
+.skills .item {
+	display: flex;
+	margin-bottom: 65px;
+
+	border-radius: 38px;
+	background: #27374D;
+}
+.skills .item img{
+	width: 629px;
+	height: 420px;
+	padding: 47px 0 46px 72px;
+	flex-shrink: 0;
+	border-radius: 38px;
+}
+.skills .item .text_skills {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	margin: 0 auto;
+
+}
+.skills .item .text_skills h3 {
+color: #FFF;
+margin-top: 68px;
+margin-bottom: 20px;
+font-family: Arial;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.skills .item .text_skills p {
+	width: 664px;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+/* ?????????????????????/ */
+
+.skills .item-left {
+	display: flex;
+	background-color: #FFF;
+	margin-top: 68px;
+	margin-bottom: 60px;
+	border-radius: 38px;
+	border: 2px solid #27374D;
+	font-family: Arial;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.skills .item-left .text_skills> p {
+	width: 664px;
+	color: #27374D;
+font-family: Arial;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 40px;
+}
+.skills .item-left .text_skills> h3{
+	color: #27374D;
+	margin-top: 68px;
+margin-bottom: 20px;
+font-family: Arial;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.skills .item-left .text_skills{
+	display: flex;
+
+	text-align: center;
+	flex-direction: column;
+	margin: 0 auto;}
+
+
+.skills .item-left img {
+	width: 629px;
+	height: 420px;
+	padding:  47px 72px 46px ;
+	margin-left: -20px;
+	flex-shrink: 0;
+	border-radius: 38px;
+}
+
+
+/* footer */
+
+
+.footer {
+	width: 1920px;
+	height: 219px;
+	background: #27374D;
+	margin-top: 2400px;
+  }
+  .footer .logo_footer {
+	width: 190px;
+	height: 161px;
+	flex-shrink: 0;
+	padding: 28px 0 30px 140px;
+  }
+  .footer .footer_link {
+  
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+	
+	margin: -128px 107px  83px 580px;
+	vertical-align: center;
+	list-style-type: none;
+  
+   
+  }
+  .footer .footer_link a {
+	color: #FFF;
+   white-space: nowrap;
+   text-decoration: none;
+	width: 100%;
+	font-family: Arial;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.5px;
+	padding-left: 56px;
+  }
+  
+   .footer_link div {
+  padding-left: 260px;
+  }
+  .footer .footer_link a:hover {
+	color: rgb(186, 186, 245);
+  }
